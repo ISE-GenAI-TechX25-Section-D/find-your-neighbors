@@ -1,0 +1,12 @@
+# Streamlit framework
+streamlit
+
+# Google Cloud BigQuery
+google-cloud-bigquery
+
+# Folium for map visualization
+folium
+
+# Streamlit integration for Folium
+streamlit-folium
+
