@@ -2,6 +2,19 @@
 
 Streamlit app to find and visualize your neighboring states.
 
+## References
+
+Utilize this references heavily to setup API authenthication and call functionality:
+
+- https://googleapis.dev/python/google-api-core/latest/auth.html
+- https://cloud.google.com/python/docs/reference/bigquery/latest
+
+Streamlit-Folium reference to develop map functionality:
+- https://folium.streamlit.app/
+
+ChatGPT session to solve questions, debug code and brainstorm ideas for app:
+Link to Sessions: https://chatgpt.com/share/67cbc4ef-96b0-8003-911c-c40d32730996, https://chatgpt.com/share/67cbd26a-9afc-8003-8603-bcea8be1c335
+
 ## How to run
 
 ### Must authenticated to make API calls
