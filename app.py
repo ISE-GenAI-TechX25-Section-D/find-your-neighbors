@@ -14,10 +14,14 @@ st.title("Find Neighboring States")
 state_name = st.text_input("Enter your state (full name, e.g., 'Texas'):")
 
 def format_state_name_correctly(state):
-    first_letter = state[0].upper()
-    rest_of_name = state[1:].lower()
+    words = state.split()
+    result = []
+    for word in words:
+        first_letter = word[0].upper()
+        rest_of_name = word[1:].lower()
+        result.append(first_letter + rest_of_name)
+    return " ".join(result)
 
-    return first_letter + rest_of_name
 
 # Query function, took inspiration from: https://cloud.google.com/python/docs/reference/bigquery/latest
 # Used LLM to debug: https://chatgpt.com/share/67cbc4ef-96b0-8003-911c-c40d32730996
